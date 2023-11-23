@@ -20,6 +20,16 @@
     Universal Selecter:     this will select every tags in html using * Star
 */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap'); */
+
+@font-face {
+    font-family: "aaaa";
+    src: url("./font/Lobster-Regular.ttf");
+}
+
+* {
+    font-family: 'aaaa';
+}
 
 .a {
     color: blueviolet;
@@ -47,11 +57,11 @@ nav {
     color: white;
 }
 
-.nav_ul{
+.nav_ul {
     display: flex;
     gap: 20px;
     list-style: none;
-   
+
 }
 
 .nav_ul li {
@@ -59,7 +69,25 @@ nav {
     font-size: 20px;
 }
 
-button{
+button {
     padding: 10px 20px;
-    border-radius: 8px; margin: 0px 5px;
+    border-radius: 8px;
+    margin: 0px 5px;
+}
+
+.e {
+    /* color: #fef3fa; */
+    color: green;
+    background-color: rgba(133, 163, 255);
+}
+
+p {
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: extra-expanded;
+}
+
+.f {
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 40px;
 }
